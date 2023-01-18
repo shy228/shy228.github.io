@@ -23,3 +23,24 @@
     position: absolute;
     left: 5%;
 }
+
+.navbar-header button.navbar-toggle {
+    margin-right: 10px;
+}
+
+#collapsable-nav {
+    border: 0px;
+    border-color: black;
+}
+
+#collapsable-nav #nav-list a {
+    text-align: center;
+    color: black;
+    padding: 0px 0px 5px 0px;
+}
+
+#nav-list a hr {
+    border-top: 1px solid black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

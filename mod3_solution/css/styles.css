@@ -52,4 +52,29 @@
 }
 #menu-categories-title {
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#main-content .row h4 {
+    text-align: center;
+}
+
+#chicken, #beef, #sushi {
+    background-color: grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/**************** mdedia query ***********************/
+
+@media (min-width: 1200px) {
+    #main-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .row {
+        margin: 0px 0px 0px 0px;
+    }
 }

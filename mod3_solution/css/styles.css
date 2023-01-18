@@ -69,7 +69,7 @@
 
 /**************** mdedia query ***********************/
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
     #main-content {
         margin-left: 10px;
         margin-right: 10px;
@@ -77,5 +77,20 @@
 
     .row {
         margin: 0px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        margin: 0px 0px 0px 0px;
+    }
+
+    #main-content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #chicken_title, #beef_title, #sushi_title {
+        padding: 10px 0px 0px;
     }
 }

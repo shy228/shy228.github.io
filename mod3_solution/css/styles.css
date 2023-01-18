@@ -1,0 +1,25 @@
+#header-nav {
+    background-color: rgb(143, 143, 143);
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* adjust to top by editing line height */
+    line-height: 0;
+    text-shadow: 1px 1px 1px #222;
+    color: black;
+    font-family: 'Lora', serif;
+    position: absolute;
+    left: 5%;
+}

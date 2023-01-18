@@ -2,6 +2,7 @@
     background-color: rgb(143, 143, 143);
     border-radius: 0;
     border: 0;
+    margin-bottom: 0px;
 }
 .navbar-brand {
     padding-top: 25px;
@@ -43,4 +44,12 @@
     border-top: 1px solid black;
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+/***************** Main Content **********************/
+#main-content {
+    padding: 0px 0px 0px 0px;
+}
+#menu-categories-title {
+    margin-top: 10px;
 }

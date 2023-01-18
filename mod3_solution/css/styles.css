@@ -93,4 +93,8 @@
     #chicken_title, #beef_title, #sushi_title {
         padding: 10px 0px 0px;
     }
+
+    #chicken, #beef, #sushi {
+        margin: 40px 0px 0px;
+    }
 }
